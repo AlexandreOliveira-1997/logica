@@ -25,11 +25,13 @@ var marca2 = rs.question('Qual a marca do veiculo? ')
 var modelo2 = rs.question('Qual o modelo do veiculo? ')
 var cor2 = rs.question('Qual a cor do veiculo? ')
 var carro2 = new carro(marca2, modelo2, cor2);
-var garagem = []
+
+// var garagem = [carro1, carro2]
+
 if(marca1 == marca2 && modelo1 == modelo2){
     console.log('Os carros sao iguais')
 }
-console.log('Os carros nao sao iguais') 
+else console.log('Os carros nao sao iguais') 
 
 
 

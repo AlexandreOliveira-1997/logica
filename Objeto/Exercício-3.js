@@ -8,5 +8,5 @@ var fs = require ("fs")
 
 var caminhodoobjeto ="carro.json" //Variavel para indicar o arquivo json criado 
 var objetodeserializado = fs.readFileSync(caminhodoobjeto) //  lendo o arquivo com o fs 
-var carro = JSON.parse(objetodeserializado) // Deserializando o arquivo 
+var carro = JSON.parse(objetodeserializado) // Deserializando o arquivo
 console.log (carro)

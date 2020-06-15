@@ -8,8 +8,8 @@ var carrosSerializados = fs.readFileSync ("cars.json")
 
 var cars = JSON.parse(carrosSerializados)
 
-var marcaCarros = "Ford"
 
-var marca = cars.includes ((carro) => carro.Car == marcaCarros)
 
-console.log (marca)
+var marca = cars.includes ((carro) => (carro.Car.includes("Ford")))
+
+console.log (marca.length)

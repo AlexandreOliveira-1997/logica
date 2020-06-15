@@ -25,7 +25,7 @@ function cadastrarAluno() {
 for (var i = 0; i < 3; i++) {
     maiorIdade.push(cadastrarAluno())
 }
-console.log(maiorIdade)
+// console.log(maiorIdade)
 /*método trabalhoso, manual 
  if (maiorIdade[0].idade >= maiorIdade[1].idade && maiorIdade[0].idade >= maiorIdade[2].idade) {
      console.log('a maior idade e ', maiorIdade[0])
@@ -44,7 +44,7 @@ for (var i = 0; i < maiorIdade.length; i++) {
         maiorIdadeEntreTodos = idadeAtual
     }
 }
-console.log(maiorIdadeEntreTodos)
+// console.log(maiorIdadeEntreTodos)
 for (var i = 0; i < maiorIdade.length; i++){
     if (maiorIdadeEntreTodos == maiorIdade[i].idade){
         console.log("o aluno de maior idade é", maiorIdade[i])

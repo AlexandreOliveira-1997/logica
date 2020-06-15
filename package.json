@@ -4,6 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "age-calculator": "^1.0.0",
+    "axios": "^0.19.2",
+    "fasam-imc-calc": "0.0.4",
+    "fs": "0.0.1-security",
+    "is-odd": "^3.0.1",
+    "median": "0.0.2",
+    "prime-number": "^1.0.2",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {},

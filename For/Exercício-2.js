@@ -14,8 +14,8 @@
 
 
 var rs = require('readline-sync');
-var n1 = rs .questionInt("Qual o numero 1?");
-var n2 = rs .questionInt("Qual o numero 2?");
+var n1 = rs.questionInt("Qual o numero 1?");
+var n2 = rs.questionInt("Qual o numero 2?");
 if(n1 > n2){
     while(n1 > n2)
    //   n1 = rs . questionInt("Qual o numero 1?");
