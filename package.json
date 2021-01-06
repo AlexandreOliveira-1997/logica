@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "age-calculator": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fasam-imc-calc": "0.0.4",
     "fs": "0.0.1-security",
     "is-odd": "^3.0.1",
